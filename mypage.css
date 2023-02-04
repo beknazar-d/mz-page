@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+li {
+    display: inline-block;
+    padding:  10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: rgb(47, 136, 196);
+}
+div span > img {
+    width: 45px;
+    height: 38px;
+    padding-left: 0px;
+}
+ul {
+    padding-left: 20px;
+    position: sticky;
+    flex-basis: auto;
+    
+}
+body {
+    background-color: rgb(238, 232, 185);
+   
+}
+h1 {
+    color: black
+}
+a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: rgb(219, 121, 216);
+}
+a:focus {
+color: blueviolet;
+font-weight: bold;
+border-radius: 1px  blueviolet;
+}
+a  {
+    color: yellow;
+}
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+h2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.search-box {
+    left: 50%;
+    position: relative;
+    height: 40px;
+    border-radius: 40px;
+   background: rgb(243, 247, 249);
+   transform: translate(-50%,50%);
+   width: 300px;
+  
+}
+.search-txt {
+    margin-top: 10px;
+    margin-left: 70px;
+    border: none;
+    padding: 0;
+    outline: none;
+    float: left;
+    background: none;
+    color: rgb(17, 5, 5)
+
+}
+.search-btn{
+    color: green;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.container-fluid {
+    background: #3b4245;
+}
+.flex-container2 {
+flex-direction: column;
+width: 120vh;
+display: flex;
+height: 600px;
+max-height: 120vh;
+border: 10px solid blue;
+
+}
+.flexitem{
+    width: 100.33%;
+    /* width: calc(33.33%); */
+    height: 33.33% ;
+    
+   
+}
+.flex1{
+display: flex;
+
+ }
+.flex2 {
+display: flex;
+
+}
+.flex3{
+
+display: flex;
+}
+ div > img {
+    display: flex;
+    width: 33%;
+    height: 90%;
+} 
+
+.rezept1 {
+    display: inline-block;
+    text-align: right;
+   margin-top: 0;
+   margin-left: 10px;
+}

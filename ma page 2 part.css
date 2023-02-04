@@ -1,0 +1,55 @@
+.container-fluid {
+    background: #3b4245;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+li {
+    display: inline-block;
+    padding:  10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: rgb(47, 136, 196);
+}
+div span > img {
+    width: 45px;
+    height: 38px;
+    padding-left: 0px;
+}
+ul {
+    padding-left: 20px;
+    position: sticky;
+    flex-basis: auto;
+    
+}
+body {
+    background-color: rgb(238, 232, 185);
+   
+}
+h1 {
+    color: black
+}
+a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: rgb(219, 121, 216);
+}
+a:focus {
+color: blueviolet;
+font-weight: bold;
+border-radius: 1px  blueviolet;
+}
+a  {
+    color: yellow;
+}
